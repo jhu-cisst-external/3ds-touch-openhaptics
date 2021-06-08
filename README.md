@@ -1,6 +1,6 @@
 # Introduction
 
-The goal of these notes is to document how to install the GeoMagic/3DS Touch hapic device drivers (USB or Ethernet based) as well as the OpenHaptics SDK (education version) on Ubuntu.  This was successfuly tested on Ubuntu 18.04 LTS 64 bits.
+The goal of these notes is to document how to install the GeoMagic/3DS Touch hapic device drivers (USB or Ethernet based) as well as the OpenHaptics SDK (education version) on Ubuntu.  This was successfuly tested on Ubuntu 18.04 LTS 64 bits.  These scripts are provided to automate the installation process described in https://support.3dsystems.com/s/article/OpenHaptics-for-Linux-Developer-Edition-v34.
 
 You will still need to configure your device following the instructions from: https://s3.amazonaws.com/dl.3dsystems.com/binaries/Sensable/Linux/Installation+Instructions.pdf, skip to step 7 if you installed the drivers using the scripts in this repository.
 
