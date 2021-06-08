@@ -2,7 +2,8 @@
 
 The goal of these notes is to document how to install the GeoMagic/3DS Touch hapic device drivers (USB or Ethernet based) as well as the OpenHaptics SDK (education version) on Ubuntu.  This was successfuly tested on Ubuntu 18.04 LTS 64 bits.
 
-To install the drivers for older FireWire based
+To install the drivers for older FireWire based, see https://github.com/jhu-cisst-external/phantom-omni-1394-drivers
+
 # Instructions
 
 The 4 scripts provided will perform most of the steps required to download/install OR un-install the files required for the Touch drivers as well as the OpenHaptics SDK.
