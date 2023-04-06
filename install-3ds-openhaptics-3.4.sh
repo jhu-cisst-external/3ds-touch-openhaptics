@@ -6,7 +6,7 @@
 
 CUR_DIR=`pwd`
 
-echo "--- There is not need to reboot after installing the packages, press `q` when asked to reboot or not"
+echo "--- There is not need to reboot after installing the packages, press 'q' when asked to reboot or not"
 
 echo "--- Downloading package"
 mkdir -p tmp
