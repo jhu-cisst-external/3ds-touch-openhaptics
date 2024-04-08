@@ -15,8 +15,11 @@ curl https://s3.amazonaws.com/dl.3dsystems.com/binaries/support/downloads/KB+Fil
 echo "--- Extracting package"
 cd tmp && tar zxf openhaptics_3.4-0-developer-edition-amd64.tar.gz
 
-echo "--- Installing"
+echo "--- Installing.  DO NOT REBOOT!  PRESS 'q'"
 sudo ./openhaptics_3.4-0-developer-edition-amd64/install
+
+echo "--- Installing dependencies"
+sudo apt install freeglut3-dev libncurses5-dev zlib1g-dev
 
 echo "--- Removing temporary files"
 cd $CUR_DIR
