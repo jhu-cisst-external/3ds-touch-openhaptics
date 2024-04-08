@@ -20,10 +20,6 @@ sudo cp TouchDriver2019_2_14/usr/lib/libPhantomIOLib42.so /usr/lib
 echo "--- Create and configure shared directory for configuration files"
 sudo mkdir -p /usr/share/3DSystems/config
 
-echo "--- Create profile.d configurationfile"
-echo "export GTDD_HOME=/usr/share/3DSystems" > 3ds-touch-drivers.sh
-sudo cp 3ds-touch-drivers.sh /etc/profile.d/3ds-touch-drivers.sh
-
 echo "--- Removing temporary files"
 cd $CUR_DIR
 rm -rf tmp
